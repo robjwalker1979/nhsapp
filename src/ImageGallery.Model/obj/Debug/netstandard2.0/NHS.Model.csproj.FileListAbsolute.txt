@@ -1,0 +1,10 @@
+C:\Projects\DesigningRelationshipsHack\src\ImageGallery.Model\bin\Debug\netstandard2.0\NHS.Model.deps.json
+C:\Projects\DesigningRelationshipsHack\src\ImageGallery.Model\bin\Debug\netstandard2.0\NHS.Model.dll
+C:\Projects\DesigningRelationshipsHack\src\ImageGallery.Model\bin\Debug\netstandard2.0\NHS.Model.pdb
+C:\Projects\DesigningRelationshipsHack\src\ImageGallery.Model\obj\Debug\netstandard2.0\NHS.Model.csproj.AssemblyReference.cache
+C:\Projects\DesigningRelationshipsHack\src\ImageGallery.Model\obj\Debug\netstandard2.0\NHS.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\DesigningRelationshipsHack\src\ImageGallery.Model\obj\Debug\netstandard2.0\NHS.Model.AssemblyInfoInputs.cache
+C:\Projects\DesigningRelationshipsHack\src\ImageGallery.Model\obj\Debug\netstandard2.0\NHS.Model.AssemblyInfo.cs
+C:\Projects\DesigningRelationshipsHack\src\ImageGallery.Model\obj\Debug\netstandard2.0\NHS.Model.csproj.CoreCompileInputs.cache
+C:\Projects\DesigningRelationshipsHack\src\ImageGallery.Model\obj\Debug\netstandard2.0\NHS.Model.dll
+C:\Projects\DesigningRelationshipsHack\src\ImageGallery.Model\obj\Debug\netstandard2.0\NHS.Model.pdb
