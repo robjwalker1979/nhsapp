@@ -77,7 +77,8 @@ namespace ImageGallery.Client
                 options.SignInScheme = CookieAuthenticationDefaults.AuthenticationScheme;
                 options.Authority = "https://localhost:44318/";
                 options.ClientId = "imagegalleryclient";
-                options.ResponseType = "code";               
+                //options.ResponseType = "code";
+                options.ResponseType = "code";
                 options.Scope.Add("address");
                 options.Scope.Add("roles");
                 options.Scope.Add("imagegalleryapi");

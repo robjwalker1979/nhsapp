@@ -53,6 +53,7 @@ namespace Marvin.IDP
                     UpdateAccessTokenClaimsOnRefresh = true,
                     ClientName = "Image Gallery",
                     ClientId = "imagegalleryclient",
+                    AlwaysIncludeUserClaimsInIdToken = true,
                     AllowedGrantTypes = GrantTypes.Code,
                     RequirePkce = true,
                     RedirectUris = new List<string>()

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\DesigningRelationshipsHack\\src\\ImageGallery.API\\NHS.API.csproj": {}
+    "C:\\Projects\\nhsapp-hackathon\\src\\ImageGallery.API\\NHS.API.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\DesigningRelationshipsHack\\src\\ImageGallery.API\\NHS.API.csproj": {
+    "C:\\Projects\\nhsapp-hackathon\\src\\ImageGallery.API\\NHS.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\DesigningRelationshipsHack\\src\\ImageGallery.API\\NHS.API.csproj",
+        "projectUniqueName": "C:\\Projects\\nhsapp-hackathon\\src\\ImageGallery.API\\NHS.API.csproj",
         "projectName": "NHS.API",
-        "projectPath": "C:\\Projects\\DesigningRelationshipsHack\\src\\ImageGallery.API\\NHS.API.csproj",
+        "projectPath": "C:\\Projects\\nhsapp-hackathon\\src\\ImageGallery.API\\NHS.API.csproj",
         "packagesPath": "C:\\Users\\RobWalker\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\DesigningRelationshipsHack\\src\\ImageGallery.API\\obj\\",
+        "outputPath": "C:\\Projects\\nhsapp-hackathon\\src\\ImageGallery.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Projects\\DesigningRelationshipsHack\\src\\ImageGallery.Model\\NHS.Model.csproj": {
-                "projectPath": "C:\\Projects\\DesigningRelationshipsHack\\src\\ImageGallery.Model\\NHS.Model.csproj"
+              "C:\\Projects\\nhsapp-hackathon\\src\\ImageGallery.Model\\NHS.Model.csproj": {
+                "projectPath": "C:\\Projects\\nhsapp-hackathon\\src\\ImageGallery.Model\\NHS.Model.csproj"
               }
             }
           }
@@ -94,14 +94,14 @@
         }
       }
     },
-    "C:\\Projects\\DesigningRelationshipsHack\\src\\ImageGallery.Model\\NHS.Model.csproj": {
+    "C:\\Projects\\nhsapp-hackathon\\src\\ImageGallery.Model\\NHS.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\DesigningRelationshipsHack\\src\\ImageGallery.Model\\NHS.Model.csproj",
+        "projectUniqueName": "C:\\Projects\\nhsapp-hackathon\\src\\ImageGallery.Model\\NHS.Model.csproj",
         "projectName": "NHS.Model",
-        "projectPath": "C:\\Projects\\DesigningRelationshipsHack\\src\\ImageGallery.Model\\NHS.Model.csproj",
+        "projectPath": "C:\\Projects\\nhsapp-hackathon\\src\\ImageGallery.Model\\NHS.Model.csproj",
         "packagesPath": "C:\\Users\\RobWalker\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\DesigningRelationshipsHack\\src\\ImageGallery.Model\\obj\\",
+        "outputPath": "C:\\Projects\\nhsapp-hackathon\\src\\ImageGallery.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

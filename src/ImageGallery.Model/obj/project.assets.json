@@ -1639,11 +1639,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\DesigningRelationshipsHack\\src\\ImageGallery.Model\\NHS.Model.csproj",
+      "projectUniqueName": "C:\\Projects\\nhsapp-hackathon\\src\\ImageGallery.Model\\NHS.Model.csproj",
       "projectName": "NHS.Model",
-      "projectPath": "C:\\Projects\\DesigningRelationshipsHack\\src\\ImageGallery.Model\\NHS.Model.csproj",
+      "projectPath": "C:\\Projects\\nhsapp-hackathon\\src\\ImageGallery.Model\\NHS.Model.csproj",
       "packagesPath": "C:\\Users\\RobWalker\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\DesigningRelationshipsHack\\src\\ImageGallery.Model\\obj\\",
+      "outputPath": "C:\\Projects\\nhsapp-hackathon\\src\\ImageGallery.Model\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

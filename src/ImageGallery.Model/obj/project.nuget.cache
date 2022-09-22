@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iLM/onYOrV5rrBEzJP3cy7ZlpViCtpsY6Dw4Dam+b8QEJFDeHPKxe4msUaLClbmeUVQTkVbjH4Nd42THiMDvpQ==",
+  "dgSpecHash": "v2l4enI7Lqx2wGhlBDnv8OUrFWPDwwN9QiCDDmoK+YOxva107ew5X2JQmeySBLWnElfkjBQDpcxhmpqQiYWEcA==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\DesigningRelationshipsHack\\src\\ImageGallery.Model\\NHS.Model.csproj",
+  "projectFilePath": "C:\\Projects\\nhsapp-hackathon\\src\\ImageGallery.Model\\NHS.Model.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\RobWalker\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\RobWalker\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",

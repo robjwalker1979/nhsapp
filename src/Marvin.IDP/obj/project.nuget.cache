@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rD0kUpZJTvcawp96126oAf0iJ64e4ks5iL0vWT6sFM8WupR4VhdVwFdljtk3hi0DPSEmDdRZTVxfJ8AuqJA7ww==",
+  "dgSpecHash": "nux/MsA0fk3MosV3g87dHwnLiz5QSSInCdvwx/VT6SOvLrahx8FkKDYYlQnvfr6fXLbCBDlmlOixdxjs9YQNmQ==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\DesigningRelationshipsHack\\src\\Marvin.IDP\\NHS.IDP.csproj",
+  "projectFilePath": "C:\\Projects\\nhsapp-hackathon\\src\\Marvin.IDP\\NHS.IDP.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\RobWalker\\.nuget\\packages\\identitymodel\\4.1.1\\identitymodel.4.1.1.nupkg.sha512",
     "C:\\Users\\RobWalker\\.nuget\\packages\\identityserver4\\3.1.0\\identityserver4.3.1.0.nupkg.sha512",

@@ -37,9 +37,11 @@ namespace Marvin.IDP
                 .AddInMemoryClients(Config.Clients)
                 .AddTestUsers(TestUsers.Users);
 
+            
+            builder.AddProfileService<ProfileService>();
+
             // not recommended for production - you need to store your key material somewhere secure
             builder.AddDeveloperSigningCredential();
-            builder.AddProfileService<ProfileService>();
         }
 
         public void Configure(IApplicationBuilder app)
@@ -88,7 +90,9 @@ namespace Marvin.IDP
                 new Claim("webid", "https://id.inrupt.com/robwalker1979")
             };
 
-            context.IssuedClaims.AddRange(claims);
+            // context.IssuedClaims.AddRange(claims);
+            context.IssuedClaims = claims;
+
         }
 
         public async Task IsActiveAsync(IsActiveContext context)

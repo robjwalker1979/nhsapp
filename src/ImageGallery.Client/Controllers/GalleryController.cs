@@ -281,6 +281,12 @@ namespace ImageGallery.Client.Controllers
             // write it out
             Debug.WriteLine($"Identity token: {identityToken}");
 
+            var accessToken = await HttpContext
+                .GetTokenAsync(OpenIdConnectParameterNames.AccessToken);
+
+            // write it out
+            Debug.WriteLine($"Access token: {accessToken}");
+
             // write out the user claims
             foreach (var claim in User.Claims)
             {
