@@ -13,6 +13,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Text.Json;
 using System.Threading.Tasks;
 
@@ -32,6 +33,8 @@ namespace ImageGallery.Client.Controllers
         public async Task<IActionResult> Index()
         {
             await WriteOutIdentityInformation();
+
+            this.GetVerifiableCredentialFromPod();
 
             var httpClient = _httpClientFactory.CreateClient("APIClient");
 
@@ -57,6 +60,45 @@ namespace ImageGallery.Client.Controllers
             }
 
             throw new Exception("Problem accessing the API");             
+        }
+
+        private async Task GetVerifiableCredentialFromPod()
+        {
+            var identityToken = await HttpContext
+                .GetTokenAsync(OpenIdConnectParameterNames.IdToken);
+
+
+
+            HttpClient client = new HttpClient();
+            client.BaseAddress = new Uri("https://storage.inrupt.com");
+            client.DefaultRequestHeaders
+                    .Accept
+                    .Add(new MediaTypeWithQualityHeaderValue("application/json"));//ACCEPT header
+                                                                                  //append the parameter at the end of the request url
+            var url = "https://storage.inrupt.com/8b784a1e-95de-40ad-83bb-9e6e987f5a2b/MyCreds/LPA Credential.ttl";
+            //var url = "http://localhost:8080";
+
+            HttpRequestMessage request = new HttpRequestMessage(HttpMethod.Get, url);
+            //// the following cod will add the jwt token in the http request header.
+            request.Headers.Add("Authorization", $"Bearer { identityToken }");
+
+            var result = await client.SendAsync(request);
+            var status = result.StatusCode;
+            //var httpClient = _httpClientFactory.CreateClient("PODClient");
+
+            //var request = new HttpRequestMessage(
+            //    HttpMethod.Get,
+            //    "https://storage.inrupt.com/8b784a1e-95de-40ad-83bb-9e6e987f5a2b/MyCreds/LPA Credential.ttl");
+
+            //request.Headers.Authorization.
+            //request.Headers.DefaultRequestHeaders.Add("Authorization", "Bearer " + accessToken);
+
+            //var response = await httpClient.SendAsync(
+            //    request, HttpCompletionOption.ResponseHeadersRead).ConfigureAwait(false);
+
+            //if (response.IsSuccessStatusCode)
+            //{
+            //}
         }
 
         public async Task<IActionResult> EditImage(Guid id)

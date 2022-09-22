@@ -31,7 +31,8 @@ namespace Marvin.IDP
              },
              new TestUser
              {
-                 SubjectId = "b7539694-97e7-4dfe-84da-b4256e1ff5c7",
+                 //SubjectId = "b7539694-97e7-4dfe-84da-b4256e1ff5c7",
+                 SubjectId = "https://id.inrupt.com/robwalker1979",
                  Username = "Claire",
                  Password = "password",
 
